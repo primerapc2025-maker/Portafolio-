@@ -1,0 +1,22 @@
+body {
+    margin: 60px;
+    background-color: rgba(0, 0, 255, 0.847)
+
+}
+
+header {
+    background-color: #4980ff; 
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+    align-items:center;
+}
