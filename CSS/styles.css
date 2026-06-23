@@ -176,3 +176,49 @@ h2 {
     border: 3px solid #FCA311;
 }
 
+/*===============================*/
+.publicacion-card {
+    background-color: #1e1e1e; 
+    border-left: 5px solid #ffa500; 
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.publicacion-card:hover {
+    transform: translateY(-3px);
+}
+
+.publicacion-info h2 {
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.publicacion-info .fecha {
+    color: #888888;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+}
+
+.publicacion-info p {
+    color: #cccccc;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn-leer {
+    display: inline-block;
+    background-color: #ffa500;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-leer:hover {
+    background-color: #cc8400;
+}
